@@ -1,0 +1,17 @@
+my_list = [10, 20, 30, 40]
+print("before append:", my_list)
+
+my_list.append(15)
+print("after append:", my_list)
+
+new_numbers = [50, 60, 70]
+my_list.extend(new_numbers)
+print("extended numbers:", my_list)
+
+del my_list[-1]
+print(my_list)
+
+my_list.sort()
+print(my_list)
+
+print(my_list.index(30))
